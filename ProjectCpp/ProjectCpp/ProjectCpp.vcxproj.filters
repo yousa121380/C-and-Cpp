@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\TheThreeChapter">
+      <UniqueIdentifier>{5f43f915-8d92-4051-97e7-3590d61cc7bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sales_data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Window_mgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="tes3.18.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test.3.22.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.1.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.2.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.4.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.5.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.6.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.10.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.12.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.13.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.14.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.15.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.16.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.17.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.19.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.20.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.21.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.23.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.25.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.27.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.29.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.30.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.31.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+    <Text Include="test3.32.txt">
+      <Filter>资源文件\TheThreeChapter</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

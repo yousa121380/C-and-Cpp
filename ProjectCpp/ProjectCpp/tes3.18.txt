@@ -1,0 +1,19 @@
+
+/*文件名：test3.18
+ *作  用：c++ primer习题解答
+ */
+
+#include<iostream>
+#include<string>
+#include<vector>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+using std::vector;
+int main()
+{
+	vector<int> ivec;
+	//ivec[0]=42;    //错误，不该对空容器使用下标索引
+	ivec.push_back(42);
+	return 0;
+}

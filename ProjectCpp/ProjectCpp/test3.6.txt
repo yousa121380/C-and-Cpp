@@ -1,0 +1,19 @@
+/*文件名：test3.6
+ *作  用：c++ primer习题解答
+ */
+#include<iostream>
+#include <string>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+int main()
+{
+	string str = "ajdlfje";
+	cout << "原始字符串是:" << str << endl;
+	for (char &a : str)
+	{
+		a = 'X';
+	}
+	cout << "替换之后:" << str << endl;
+	return 0;
+}

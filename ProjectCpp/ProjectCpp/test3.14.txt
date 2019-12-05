@@ -1,0 +1,21 @@
+/*文件名：test3.14
+ *作  用：c++ primer习题解答
+ */
+
+#include<iostream>
+#include<string>
+#include<vector>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+using std::vector;
+int main()
+{
+	int a;
+	vector<int> s;
+	while (cin >> a)
+	{
+		s.push_back(a);
+	}
+	return 0;
+}

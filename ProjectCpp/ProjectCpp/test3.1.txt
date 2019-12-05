@@ -1,0 +1,48 @@
+/*文件名：test3.1
+ *作  用：c++ primer习题解答
+ */
+
+
+/*test1.9re*/
+#include<iostream>
+using std::cout; using std::endl;
+int main()
+{
+	int a = 50,sum=0;
+	while (a <= 100)
+	{
+		sum = sum + a;
+		++a;
+	}
+	cout << sum << endl;
+	return 0;
+}
+/*test1.10re*/
+#include<iostream>
+using std::cout; using std::endl;
+int main()
+{
+	int a = 10;
+	while (a>=0)
+	{
+		cout << a-- <<endl;
+	}
+	return 0;
+}
+/*test1.11re*/
+#include<iostream>
+using std::cout; using std::endl;
+using std::cin;
+int main()
+{
+	int a1, a2,max,min;
+	cout << "请输入两个整数" << endl;
+	cin >> a1 >> a2;
+	max = a1 > a2 ? a1 : a2;
+	min = a1 < a2 ? a1 : a2;
+	while (min<= max)
+	{
+		cout << min++ << endl;
+	}
+	return 0;
+}

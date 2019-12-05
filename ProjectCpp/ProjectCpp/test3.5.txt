@@ -1,0 +1,43 @@
+/*文件名：test3.3
+ *作  用：c++ primer习题解答
+ */
+/*(1)*/
+#include<iostream>
+#include <string>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+int main()
+{
+	string str1,str2="";
+	cout << "请输入第一个字符串" << endl;
+	cin >> str1;
+	while (str2 != "*")
+	{
+		cout << "请继续输入字符串，输入*结束" << endl;
+		str1 = str1 + str2;
+		cin >> str2;
+	}
+	cout << "连接后的字符串为：" << str1 << endl;
+	return 0;
+}
+/*(2)*/
+#include<iostream>
+#include <string>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+int main()
+{
+	string str1,str2="";
+	cout << "请输入第一个字符串" << endl;
+	cin >> str1;
+	while (str2 != "*")
+	{
+		cout << "请继续输入字符串，输入*结束" << endl;
+		str1 = str1 +" "+ str2;
+		cin >> str2;
+	}
+	cout << "连接后的字符串为：" << str1 << endl;
+	return 0;
+}

@@ -1,0 +1,27 @@
+/*文件名：test3.16
+ *作  用：c++ primer习题解答
+ */
+
+#include<iostream>
+#include<string>
+#include<vector>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+using std::vector;
+int main()
+{
+	string a;
+	vector<string> s;
+	while (cin >> a)
+	{
+		s.push_back(a);
+	}
+	cout << "容器的大小为：" << s.size() << endl;
+	for (auto z : s)
+	{
+		cout << z <<" ";
+	}
+	cout << endl;
+	return 0;
+}

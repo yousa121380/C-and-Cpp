@@ -1,0 +1,28 @@
+#include<iostream>
+#include<string>
+#include<vector>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+using std::vector;
+int main()
+{
+	vector<int> text;
+	int line;
+	while (cin >> line)
+	{
+		text.push_back(line);
+	}
+	auto i = text.begin();
+	while (i != text.end())
+	{
+		*i = (*i) * 2;
+		i++;
+	}
+	for (auto s : text)
+	{
+		cout << s<<" ";
+	}
+	cout << endl;
+	return 0;
+}

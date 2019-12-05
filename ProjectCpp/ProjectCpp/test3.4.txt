@@ -1,0 +1,59 @@
+/*文件名：test3.3
+ *作  用：c++ primer习题解答
+ */
+ /*(1)*/
+
+#include<iostream>
+#include <string>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+int main()
+{
+	string str1,str2;
+	cout << "请输入第一个字符串" << endl;
+	cin >> str1;
+	cout << "请输入第二个字符串" << endl;
+	cin >> str2;
+	if (str1 > str2)
+	{
+		cout << str1 << endl;
+	}
+	else if (str2 > str1)
+	{
+		cout << str2 << endl;
+	}
+	else
+		cout << "字符串相等" << endl;
+	return 0;
+}
+
+/*(2)*/
+
+#include<iostream>
+#include <string>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+int main()
+{
+	string str1,str2;
+	int longstr1, longstr2;
+	cout << "请输入第一个字符串" << endl;
+	cin >> str1;
+	cout << "请输入第二个字符串" << endl;
+	cin >> str2;
+	longstr1 = str1.size();
+	longstr2 = str2.size();
+	if (longstr1 > longstr2)
+	{
+		cout << str1 << endl;
+	}
+	else if (longstr2 > longstr1)
+	{
+		cout << "较长的字符串为："<<str2 << endl;
+	}
+	else
+		cout << "字符串相等" << endl;
+	return 0;
+}

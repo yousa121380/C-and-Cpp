@@ -1,0 +1,44 @@
+/*(1)*/
+
+#include<iostream>
+#include<string>
+#include<vector>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+using std::vector;
+int main()
+{
+	vector<int> ivec{43,54,7,5,3,534,2,43};
+	auto a = ivec.begin(), b = ivec.end();
+	while (a+1<b)
+	{
+		cout << *a + *(a+1)<<" ";
+		a++;
+	}
+	cout << endl;
+	return 0;
+}
+
+/*(2)*/
+#include<iostream>
+#include<string>
+#include<vector>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+using std::vector;
+int main()
+{
+	vector<int> ivec{43,54,7,5,3,534,2,43};
+	auto a = ivec.begin(), b = ivec.end();
+	b--;
+	while (a+1<=b)
+	{
+		cout << *a + *(b)<<" ";
+		a++;
+		b--;
+	}
+	cout << endl;
+	return 0;
+}

@@ -1,0 +1,19 @@
+/*文件名：test3.12
+ *作  用：c++ primer习题解答
+ */
+
+
+#include<iostream>
+#include<string>
+#include<vector>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+using std::vector;
+int main()
+{
+	vector<vector<int>> ivec;   //正确
+	//vector<string> svec = ivec;  //错误，svec不可拷贝ivec来初始化
+	vector<string> svec(10,"null")  //正确，svec可以使用直接初始化
+	reuturn 0;
+}

@@ -1,0 +1,23 @@
+#include<iostream>
+#include<string>
+#include<vector>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+using std::vector;
+int txt_size()
+{
+	return 10;
+}
+
+int main()
+{
+	unsigned buf_size = 1024;
+	//int ia[buf_size]；  //错误，buff_size不是常量表达式
+	int ia[4 * 7 - 14];
+	//int ia[txt_size()];   //错误，并非常量表达式
+	//char st[11] = "fundamental"; //错误，带上‘\0’后超过11位
+	return 0;
+}
+
+

@@ -1,0 +1,21 @@
+#include<iostream>
+#include<string>
+#include<vector>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+using std::vector;
+string sa[10];
+int ia[10];
+
+int main()
+{
+	string sa2[10];
+	int ia2[10];
+	for (auto s : ia2)
+	{
+		cout << s << " ";
+	}
+	cout << endl;
+	return 0;
+}

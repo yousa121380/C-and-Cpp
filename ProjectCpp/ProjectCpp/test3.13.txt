@@ -1,0 +1,29 @@
+/*文件名：test3.13
+ *作  用：c++ primer习题解答
+ */
+
+#include<iostream>
+#include<string>
+#include<vector>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+using std::vector;
+int main()
+{
+	vector<int> v1;
+	vector<int> v2(10);
+	vector<int> v3(10, 42);
+	vector<int> v4{ 10 };
+	vector<int> v5{ 10, 42 };
+	vector<string> v6{ 10 };
+	vector<string> v7{ 10,"hi" };
+	cout << "v1的大小为：" << v1.size() << endl;
+	cout << "v2的大小为：" << v2.size() << endl;
+	cout << "v3的大小为：" << v3.size() << endl;
+	cout << "v4的大小为：" << v4.size() << endl;
+	cout << "v5的大小为：" << v5.size() << endl;
+	cout << "v6的大小为：" << v6.size() << endl;
+	cout << "v7的大小为：" << v7.size() << endl;
+	return 0;
+}

@@ -1,0 +1,28 @@
+#include<iostream>
+#include<string>
+#include<vector>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+using std::vector;
+
+
+int main()
+{
+	vector<unsigned int> scores(11, 0);
+	unsigned int grade;
+	auto a = scores.begin();
+	while (cin >> grade)
+	{
+		if (grade <= 100)
+		{
+			++* (a + grade / 10);
+		}
+	}
+	for (auto s : scores)
+	{
+		cout << s << " ";
+	}
+	cout << endl;
+	return 0;
+}

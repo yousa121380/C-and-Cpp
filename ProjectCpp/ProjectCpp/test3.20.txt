@@ -1,0 +1,44 @@
+/*文件名：test3.20
+ *作  用：c++ primer习题解答
+ */
+/*(1)*/
+ #include<iostream>
+#include<string>
+#include<vector>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+using std::vector;
+int main()
+{
+	vector<int> ivec{43,54,7,5,3,534,2,43};
+	unsigned int i=0;
+	while (i +1< ivec.size())
+	{
+		cout << ivec[i] + ivec[i + 1]<<" ";
+		i++;
+	}
+	cout << endl;
+	return 0;
+}
+/*(1)*/
+
+#include<iostream>
+#include<string>
+#include<vector>
+using std::cout; using std::endl;
+using std::cin;
+using std::string;
+using std::vector;
+int main()
+{
+	vector<int> ivec{43,54,7,5,3,534,2,43};
+	unsigned int i=0,size=ivec.size();
+	while (i< ivec.size()/2)
+	{
+		cout << ivec[i] + ivec[size-1-i]<<" ";
+		i++;
+	}
+	cout << endl;
+	return 0;
+}
