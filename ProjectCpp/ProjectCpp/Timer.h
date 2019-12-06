@@ -11,8 +11,6 @@
 #include<iostream>
 class Timer
 {
-	friend Timer operator+(const Timer, const Timer);
-	friend Timer operator-(const Timer, const Timer);
 	friend void fixTime(Timer& time);
 public:
 	
@@ -28,8 +26,6 @@ public:
 private:
 	int year, month, day, hour, minute, second;
 };
-Timer operator+(const Timer a, const Timer b);
-Timer operator-(const Timer a, const Timer b);
 int getMonthDay(int year, int month);
 void fixTime(Timer& time);
 

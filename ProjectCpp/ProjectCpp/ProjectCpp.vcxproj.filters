@@ -30,12 +30,21 @@
     <ClInclude Include="Window_mgr.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="HasPtr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Timer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sales_data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HasPtr.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

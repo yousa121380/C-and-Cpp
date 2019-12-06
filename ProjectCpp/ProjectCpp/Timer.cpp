@@ -42,36 +42,6 @@ void Timer::getyear()
 	std::cout << "当前时间为：" << year << "年" << std::endl;
 }
 
-Timer operator+(const Timer a, const Timer b)
-{
-	Timer time;
-	time.year = a.year + b.year;
-	time.month = a.month + b.month;
-	time.day = a.day + b.day;
-	time.hour = a.hour + b.hour;
-	time.minute = a.minute + b.minute;
-	time.second = a.second + b.second;
-	fixTime(time);
-	return time;
-}
-
-Timer operator-(const Timer a, const Timer b)
-{
-	Timer time;
-	long long int inta, intb;
-	inta = a.second + a.minute * 100 + a.hour * 10000 + a.day * 1000000 + a.month * 100000000 + a.year * 10000000000;
-	intb = b.second + b.minute * 100 + b.hour * 10000 + b.day * 1000000 + b.month * 100000000 + b.year * 10000000000;
-	if (inta < intb) return time;
-	time.year = a.year - b.year;
-	time.month = a.month - b.month;
-	time.day = a.day - b.day;
-	time.hour = a.hour - b.hour;
-	time.minute = a.minute - b.minute;
-	time.second = a.second - b.second;
-	fixTime(time);
-	return time;
-}
-
 int getMonthDay(int year, int month)
 {
 	if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) return 31;

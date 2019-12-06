@@ -118,13 +118,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="HasPtr.h" />
     <ClInclude Include="Sales_data.h" />
     <ClInclude Include="Screen.h" />
     <ClInclude Include="Timer.h" />
     <ClInclude Include="Window_mgr.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="HasPtr.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sales_data.cpp" />
     <ClCompile Include="Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
