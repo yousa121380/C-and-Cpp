@@ -28,9 +28,16 @@ typedef struct LNode{
 
 typedef LNode* LinkList;
 
-Status InitList(LinkList *L);  //初始化链式表
+Status InitLinkList(LinkList *L);  //初始化链式表
 
-Status DestroyList(LinkList *L);  //销毁链式表
+Status DestroyLinkList(LinkList *L);  //销毁链式表
 
-Status 
+
+//插入链表
+//仅允许插入并创建当前链表的下一项或者在链表中插入一项，其他情况都会创建失败
+Status InsertLinkList(LinkList L, int i, ElemType e);   
+
+//取出链表
+//取出某一个链表中存在的节点数据,并将其存在e中
+Status GetElemLinkList(LinkList L, int i, ElemType *e);
 #endif // !LINK_LIST

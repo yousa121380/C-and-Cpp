@@ -4,16 +4,22 @@
 #include<iostream>
 #include<string>
 #include<vector>
+#include<sstream>
 #include"Sales_data.h"
 using std::cout; using std::endl;
 using std::cin;
 using std::string;
 using std::vector;
-
 int main()
 {
-	Sales_data data("21332");
-	Sales_data data1 = data;
-	cout << data.isbn() << endl;
+	
+	string x="",y;
+	int i, j;
+	x.push_back('a');
+	int i = 2000000000;
+	long j;
+	j = i * 10;
+	swap(x,y);
+	cout << (int)j << endl;
 	return 0;
 }

@@ -1,19 +1,27 @@
 #include<stdio.h>
-#include "SqList.h"
+#include"LinkList.h"
+#include<vector>
 
 int main()
 {
-	SqList L;
+	LinkList L;
 	ElemType e;
-	InitList(&L);
-	InsertList(&L, 1, 2);
-	InsertList(&L, 1, 3);
-	
-	for (int i = 1; i <= L.length; i++)
+	if (InitLinkList(&L) == 0)
 	{
-		GetElem(L, i, &e);
-		printf("%d",e);
-	};
-	DestroyList(&L);
+		printf("³õÊ¼»¯Ê§°Ü");
+		return 0;
+	}
+	if (InsertLinkList(L, 1, 2) == 0)
+	{
+		printf("²åÈëÊ§°Ü");
+		return 0;
+	}
+
+	if (GetElemLinkList(L, 1, &e) == 0)
+	{
+		printf("È¡³öÊ§°Ü");
+		return 0;
+	}
+	printf("%d", e);
 	return 0;
 }
