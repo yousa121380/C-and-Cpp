@@ -21,11 +21,13 @@
   <ItemGroup>
     <ClInclude Include="LinkList.h" />
     <ClInclude Include="SqList.h" />
+    <ClInclude Include="SqStack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LinkList.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="SqList.c" />
+    <ClCompile Include="SqStack.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

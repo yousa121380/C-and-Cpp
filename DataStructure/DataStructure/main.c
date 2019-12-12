@@ -1,27 +1,26 @@
 #include<stdio.h>
 #include"LinkList.h"
-#include<vector>
+#include"SqStack.h"
 
 int main()
 {
-	LinkList L;
-	ElemType e;
-	if (InitLinkList(&L) == 0)
+	SqStack L;
+	SElemType e=1;
+	if (InitSqStack(&L) == 0)
 	{
 		printf("≥ı ºªØ ß∞‹");
 		return 0;
 	}
-	if (InsertLinkList(L, 1, 2) == 0)
+	if (DestroySqStack(&L) == 0)
 	{
-		printf("≤Â»Î ß∞‹");
+		printf("œ˙ªŸ ß∞‹");
 		return 0;
 	}
-
-	if (GetElemLinkList(L, 1, &e) == 0)
+	for(int i=0;i<)
+	if (PushSqStack(&L,1)==0)
 	{
-		printf("»°≥ˆ ß∞‹");
+		printf("»Î’ª ß∞‹");
 		return 0;
 	}
-	printf("%d", e);
 	return 0;
 }
