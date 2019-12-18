@@ -1,5 +1,5 @@
-#ifndef STACK_H
-#define STACK_H
+#ifndef SQSTACK_H
+#define SQSTACK_H
 
 
 /*============================================
@@ -43,6 +43,6 @@ Status GetTopSqStack(SqStack *S, SElemType *e); //È¡Õ»¶¥ÔªËØ
 
 
 
-#endif // !STACK_H
+#endif // !SQSTACK_H
 
 

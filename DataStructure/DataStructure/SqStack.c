@@ -32,11 +32,15 @@ Status PushSqStack(SqStack * S, SElemType e)
 Status PopSqStack(SqStack * S, SElemType * e)
 {
 	if (S == NULL || (*S).base == NULL) return ERROR;
+	if (S->top == S->base) return ERROR; //Õ»¿Õ
 	*e = *(--S->top);
 	return OK;
 }
 
 Status GetTopSqStack(SqStack * S, SElemType * e)
 {
+	if (S == NULL || (*S).base == NULL) return ERROR;
+	if (S->top == S->base) return ERROR;
+	*e= *(S->top-1);
 	return OK;
 }
